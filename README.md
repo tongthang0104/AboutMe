@@ -15,7 +15,7 @@ Students who complete this project independently are able to:
 
 ### AboutMe Scene
 
-Build a view with at least 10 facts that you could use to introduce yourself. List goals, motivations, hobbies, or personal favorites. Include a photo.
+Build a view with at least 10 facts that you could use to introduce yourself. List go1als, motivations, hobbies, or personal favorites. Include a photo.
 
 1. Open the ViewController scene in Main.storyboard
 2. Using UIViews, UILabels, UIButtons, UIImageViews, create a scene that you can use to introduce yourself

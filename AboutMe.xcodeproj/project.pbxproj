@@ -13,6 +13,9 @@
 		68CC11571BB1AA4A003BDF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CC11561BB1AA4A003BDF43 /* Assets.xcassets */; };
 		68CC115A1BB1AA4A003BDF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CC11581BB1AA4A003BDF43 /* LaunchScreen.storyboard */; };
 		68CC11651BB1AA4A003BDF43 /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC11641BB1AA4A003BDF43 /* AboutMeTests.swift */; };
+		DEA92B481BCCB9D800D2810D /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92B471BCCB9D800D2810D /* FamilyViewController.swift */; };
+		DEA92B4A1BCCCB8100D2810D /* TourismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92B491BCCCB8100D2810D /* TourismViewController.swift */; };
+		DEA92B4C1BCCCEC100D2810D /* FavoriteQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92B4B1BCCCEC100D2810D /* FavoriteQuoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		68CC11601BB1AA4A003BDF43 /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CC11641BB1AA4A003BDF43 /* AboutMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTests.swift; sourceTree = "<group>"; };
 		68CC11661BB1AA4A003BDF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA92B471BCCB9D800D2810D /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		DEA92B491BCCCB8100D2810D /* TourismViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourismViewController.swift; sourceTree = "<group>"; };
+		DEA92B4B1BCCCEC100D2810D /* FavoriteQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteQuoteViewController.swift; path = Assets.xcassets/FavoriteQuoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				68CC114F1BB1AA4A003BDF43 /* AppDelegate.swift */,
 				68CC11511BB1AA4A003BDF43 /* ViewController.swift */,
 				68CC11531BB1AA4A003BDF43 /* Main.storyboard */,
+				DEA92B4B1BCCCEC100D2810D /* FavoriteQuoteViewController.swift */,
+				DEA92B471BCCB9D800D2810D /* FamilyViewController.swift */,
+				DEA92B491BCCCB8100D2810D /* TourismViewController.swift */,
 				68CC11561BB1AA4A003BDF43 /* Assets.xcassets */,
 				68CC11581BB1AA4A003BDF43 /* LaunchScreen.storyboard */,
 				68CC115B1BB1AA4A003BDF43 /* Info.plist */,
@@ -196,6 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA92B4C1BCCCEC100D2810D /* FavoriteQuoteViewController.swift in Sources */,
+				DEA92B4A1BCCCB8100D2810D /* TourismViewController.swift in Sources */,
+				DEA92B481BCCB9D800D2810D /* FamilyViewController.swift in Sources */,
 				68CC11521BB1AA4A003BDF43 /* ViewController.swift in Sources */,
 				68CC11501BB1AA4A003BDF43 /* AppDelegate.swift in Sources */,
 			);
@@ -387,6 +399,7 @@
 				68CC116B1BB1AA4A003BDF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CC116C1BB1AA4A003BDF43 /* Build configuration list for PBXNativeTarget "AboutMeTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +408,7 @@
 				68CC116E1BB1AA4A003BDF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
